@@ -1,0 +1,36 @@
+name: seth_app
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.1 <4.0.0"
+  # ">=3.3.2 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  light_sensor: ^3.0.0
+  sensors_plus: ^5.0.1
+  pedometer: ^4.0.1
+  permission_handler: ^11.3.1
+  google_maps_flutter: ^2.6.0
+  provider: ^6.1.2
+  location: ^6.0.1
+
+  # google_maps_flutter: ^2.6.0
+  # location: ^6.0.1
+
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
